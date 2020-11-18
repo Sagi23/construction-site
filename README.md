@@ -5,7 +5,7 @@ The site is responsive to all devices.
 
 ### The Stack i used:
 
-html, scss/css, js, adobe xd.
+html, scss/css, js, gsap3, adobe xd.
 
 ### Workflow:
 
