@@ -1,4 +1,4 @@
-### Description
+### Description:
 
 Construction site with multiple pages.  
 The site is responsive to all devices.
