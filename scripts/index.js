@@ -26,7 +26,8 @@ leftBtn.addEventListener("click", function () {
   }
 });
 
-gsap.from(".landing", { duration: 1, y: -300, opacity: 0, scale: 0.5 });
+gsap.from(".landing-left", { duration: 0.5, x: -100, opacity: 0 });
+gsap.from(".landing-right", { duration: 0.5, x: 100, opacity: 0, delay: 0.5 });
 
 let tl = new TimelineMax({ repeat: -1 })
   .from(".scroll", {

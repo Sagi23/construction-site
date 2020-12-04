@@ -260,8 +260,8 @@ body {
   grid-column: 2/3;
   max-width: 500px;
   border-radius: 1em;
-  -webkit-box-shadow: 0 1em 1em rgba(65, 65, 78, 0.3);
-          box-shadow: 0 1em 1em rgba(65, 65, 78, 0.3);
+  -webkit-box-shadow: 0 6px 16px rgba(65, 65, 78, 0.3);
+          box-shadow: 0 6px 16px rgba(65, 65, 78, 0.3);
 }
 
 .home3 .right-slider #left-arrow {

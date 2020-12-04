@@ -53,6 +53,10 @@ header ul a:hover {
   font-size: 1.5rem;
 }
 
+.contact-grid form {
+  padding-bottom: 2em;
+}
+
 .contact-grid input {
   margin-top: 1em;
   width: 100%;
@@ -65,6 +69,7 @@ header ul a:hover {
   margin-top: 1em;
   width: 102%;
   resize: none;
+  height: 100px;
 }
 
 .contact-grid button {
