@@ -40,6 +40,9 @@ header {
   justify-items: center;
   color: #242c63;
   font-size: 1.5rem;
+  form {
+    padding-bottom: 2em;
+  }
   input {
     margin-top: 1em;
     width: 100%;
@@ -51,6 +54,7 @@ header {
     margin-top: 1em;
     width: 102%;
     resize: none;
+    height: 100px;
   }
   button {
     background-color: white;

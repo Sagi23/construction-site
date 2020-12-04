@@ -1,1 +1,1 @@
-gsap.from(".contact-grid", { duration: 1, y: -300, opacity: 0, scale: 0.5 });
+gsap.from(".contact-grid", { duration: 0.8, y: -100, opacity: 0 });
