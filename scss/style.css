@@ -109,6 +109,8 @@ body {
 .landing-left form .anc {
   position: absolute;
   width: 20%;
+  top: 80px;
+  left: 0;
 }
 
 .landing-right {
@@ -189,7 +191,7 @@ body {
   z-index: 5;
 }
 
-.home2 .cards .card {
+.home2 .cards .card1 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -201,7 +203,7 @@ body {
   margin-right: 3em;
 }
 
-.home2 .cards .card .num {
+.home2 .cards .card1 .num {
   font-weight: 700;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
@@ -211,7 +213,7 @@ body {
   grid-row: 1/2;
 }
 
-.home2 .cards .card .det {
+.home2 .cards .card1 .det {
   text-transform: uppercase;
   font-size: 0.8rem;
   -ms-grid-column: 2;
@@ -246,8 +248,8 @@ body {
 .home3 .right-slider {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 0.5fr 1fr 0.5fr;
-      grid-template-columns: 0.5fr 1fr 0.5fr;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -255,35 +257,11 @@ body {
 }
 
 .home3 .right-slider .slides {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  max-width: 500px;
   border-radius: 1em;
-  -webkit-box-shadow: 0 6px 16px rgba(65, 65, 78, 0.3);
-          box-shadow: 0 6px 16px rgba(65, 65, 78, 0.3);
 }
 
-.home3 .right-slider #left-arrow {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.home3 .right-slider #left-arrow:hover {
-  cursor: pointer;
-}
-
-.home3 .right-slider #right-arrow {
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
-  grid-column: 3/4;
-}
-
-.home3 .right-slider #right-arrow:hover {
-  cursor: pointer;
+.w-100 {
+  width: 500px !important;
 }
 
 footer {
@@ -399,12 +377,18 @@ footer {
     padding: 0;
     left: 90%;
   }
+  .landing-left form .anc {
+    top: 60px;
+  }
   .landing-right {
     margin-top: 7em;
     justify-items: center;
   }
   .landing .scroll {
     display: none;
+  }
+  .w-100 {
+    width: 250px !important;
   }
   .home2 {
     margin-top: 3em;
@@ -452,9 +436,6 @@ footer {
   }
   .home3 .right-slider {
     margin-top: 2em;
-  }
-  .home3 .right-slider img {
-    max-width: 40px;
   }
   .home3 .right-slider .slides {
     max-width: 250px;
